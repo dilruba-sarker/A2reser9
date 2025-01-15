@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+   
+}
+.body{
+  
+  max-width: 1024px;
+margin: 0 auto;
+ background: rgb(0, 0, 0); 
+}
+.header-container{
+max-height: 100vh;
+
+     background: linear-gradient(185.00deg, rgb(35, 35, 35),rgba(255, 255, 255, 0) 100%); 
+}
+.nav-container {
+    max-width: 100%;
+    margin: 0 auto;
+    
+    color: rgb(237, 7, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.fitness-header {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.nav-left {
+    display: flex;
+    list-style: none;
+}
+
+.nav-left li {
+    margin-right: 20px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: white;
+    visibility: visible;
+}
+
+.nav-left{
+    
+    padding:  4px 10px;
+    text-align: center;
+    border-radius: 40px;
+}
+.nav-icon {
+    display: none;
+}
+
+.nav-icon img {
+    width: 30px;
+    cursor: pointer;
+}
+.home{border-radius: 46px;
+padding: .3rem .4rem;
+    background: rgb(230, 83, 60);}
+.banner-section{
+   max-width:100%;
+   /* background-color: blue; */
+  max-height: fit-content;
+    color: white;
+    display: flex;
+   
+    margin: 3rem auto;
+}
+    .banner-left{
+        width: 50%;
+       
+        margin: 3rem auto;
+    }
+    .banner-left h5{
+        font-size:3.15rem;
+      /* width: 40rem; */
+    }
+    .banner-left p{
+        width:21.9rem;
+       margin: .9rem .1rem;
+       word-spacing: 5px;
+    }
+    .shape{
+        font-family: 'Dancing Script', cursive;
+        font-size: 3.5rem;
+        font-weight: 50;
+     
+
+    }
+
+    .ptn-primary{
+        margin-top:2rem;
+        margin-left: 1rem;
+        border-radius: 3rem;
+        padding: .5rem 1rem;
+        background-color: rgb(255, 20, 20);
+        border: none;
+        color: aliceblue;
+    }
+    .blank{
+        background-color: rgb(32, 32, 32);
+        border: 2px dashed wheat;
+    }
+    .banner-right{
+
+/*          */
+        width: 45%;
+        margin: 0 auto;
+        background-image: url("./images/Images\ 2.png");
+        background-repeat: no-repeat;
+        /*  */
+height: 500px; ;
+/* background-color: bisque; */
+    }
+    
+
+    .btn-free{
+
+        padding:1.5rem .5rem;
+     /* Rectangle 13 */
+position: absolute;
+margin: 1rem auto;
+width: 9.4rem;
+height: 5rem;
+left:51.25rem;
+top:16.25rem;
+background: rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+
+color: antiquewhite;
+    }
+    .btn-free1{
+display: flex;
+
+      
+     /* Rectangle 13 */
+position: absolute;
+align-items: center;
+
+width: 10rem;
+height: 5rem;
+left:30.25rem;
+top:29rem;
+background: rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+margin: 1rem auto;
+color: antiquewhite;
+    }
+
+.play-btn{
+    visibility: hidden;
+}
+.circle{
+    visibility: visible;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-container{margin: 0 auto;
+    
+
+}
+    .nav-icon {
+        display: block;
+    }
+    .nav-left {
+        display: none;
+    }
+    .banner-section{
+      
+      
+         flex-direction: column;
+         align-items: center;
+     }
+     .banner-right,.banner-left {
+        width: 100%;
+        
+       
+     }
+     .banner-right{
+        height: 500px;
+     }
+    
+     .btn-free{
+
+        padding:1.5rem .5rem;
+     /* Rectangle 13 */
+position: relative;
+margin: 0 auto;
+width: 9.4rem;
+height: 5rem;
+left:18rem;
+top:16.25rem;
+
+    }
+    .btn-free1{
+display: flex;
+
+      
+     /* Rectangle 13 */
+position: relative;
+
+width: 10rem;
+height: 5rem;
+left:-8rem;
+top:20.25rem;
+
+
+    }
+    .play-btn{
+        visibility: visible;
+        margin-right: 2rem;
+    }
+.circle{
+    visibility: hidden;
+}
+}
