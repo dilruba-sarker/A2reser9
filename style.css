@@ -16,7 +16,7 @@ margin: 0 auto;
  background: rgb(0, 0, 0); 
 }
 .header-container{
-max-height: 100vh;
+
 
      background: linear-gradient(185.00deg, rgb(35, 35, 35),rgba(255, 255, 255, 0) 100%); 
 }
@@ -169,6 +169,50 @@ color: antiquewhite;
     margin-left: 15px;
 }
 
+/* habit */
+.habit-container{
+    max-width: 950px;
+    
+    margin: 4rem auto;
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.habit-details{
+width:70%;
+margin: 0 auto;
+color: aliceblue;
+}
+.habit-details p{
+    margin: 1rem 0;
+}
+
+.team-container{
+    color: aliceblue;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+.pic-tem{
+   
+}
+.pic-teams{
+   width: 6rem;
+   border-radius: 50px;
+}
+.team1{
+max-width: 20%;
+text-align: center;
+
+}
+.team1 p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 576px) {
     .nav-container{margin: 0 auto;
     
@@ -180,7 +224,7 @@ color: antiquewhite;
     .nav-left {
         display: none;
     }
-    .banner-section{
+    .banner-section,.team-container {
       
       
          flex-direction: column;
@@ -227,5 +271,8 @@ top:20.25rem;
     }
 .circle{
     visibility: hidden;
+}
+.team1 h6,p{
+    margin-left: 5px;
 }
 }
