@@ -320,6 +320,41 @@ margin: 0 auto;
     border: none;
     color: aliceblue;
 }
+/* meet */
+.team-container2{
+    max-width: 950px;
+   color:rgb(0, 0, 0);
+  
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 25px;
+   text-align: center;
+   background-color: darkgrey;
+   
+   padding: 30px;
+   border-radius: 20px;
+   margin: 10px auto;
+}
+.team-start{
+    width: 70%;
+    color: #ddd;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-start h1{
+    font-size: 40px;
+}
+.trainer1 img{
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.trainer-details{
+    position: relative;
+    margin-top: -60px;
+    margin-left: 0px;
+}
 @media screen and (max-width: 576px) {
     .nav-container{margin: 0 auto;
     
@@ -414,5 +449,11 @@ flex-direction: column;
 .calculator-btn{
     margin-left: 1rem;
     width: 100px;
+}
+
+.team-container2{
+   grid-template-columns: repeat(1,1fr);
+   gap: 25px;
+  
 }
 }
