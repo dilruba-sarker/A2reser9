@@ -308,8 +308,8 @@ top:20.25rem;
 }
 
 .run-container{
-    max-width: 950px;
-    height: 450px;
+    max-width: 350px;
+    height: 550px;
  
     flex-direction: column;
     color: aliceblue;
