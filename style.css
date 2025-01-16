@@ -355,6 +355,17 @@ margin: 0 auto;
     margin-top: -60px;
     margin-left: 0px;
 }
+
+.video{
+   max-width: 950px;
+    margin: 40px auto;
+    text-align: center;
+    color: #ddd;
+}
+.video p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 @media screen and (max-width: 576px) {
     .nav-container{margin: 0 auto;
     
@@ -455,5 +466,11 @@ flex-direction: column;
    grid-template-columns: repeat(1,1fr);
    gap: 25px;
   
+}
+.video{
+    max-width: 320px;
+    margin-right:120px;
+   
+    
 }
 }
