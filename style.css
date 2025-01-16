@@ -55,6 +55,7 @@ margin: 0 auto;
     
     padding:  4px 10px;
     text-align: center;
+    border: 1px solid rgb(75, 73, 70);
     border-radius: 40px;
 }
 .nav-icon {
@@ -154,7 +155,7 @@ align-items: center;
 
 width: 10rem;
 height: 5rem;
-left:27rem;
+left:30rem;
 top:29rem;
 background: rgba(255, 255, 255, 0.1);
 box-sizing: border-box;
