@@ -90,6 +90,9 @@ padding: .3rem .4rem;
         width:21.9rem;
        margin: .9rem .1rem;
        word-spacing: 5px;
+       /* body-text */
+color: rgba(255, 255, 255, 0.5);
+
     }
     .shape{
         font-family: 'Dancing Script', cursive;
@@ -133,12 +136,12 @@ position: absolute;
 margin: 1rem auto;
 width: 9.4rem;
 height: 5rem;
-left:51.25rem;
+left:50rem;
 top:16.25rem;
 background: rgba(255, 255, 255, 0.1);
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.1);
-
+border-radius: 10px;
 color: antiquewhite;
     }
     .btn-free1{
@@ -151,7 +154,7 @@ align-items: center;
 
 width: 10rem;
 height: 5rem;
-left:30.25rem;
+left:27rem;
 top:29rem;
 background: rgba(255, 255, 255, 0.1);
 box-sizing: border-box;
@@ -185,6 +188,7 @@ color: aliceblue;
 }
 .habit-details p{
     margin: 1rem 0;
+    color: rgba(176, 175, 175, 0.65);
 }
 
 .team-container{
@@ -230,6 +234,7 @@ text-align: center;
 }
 .run-left{
     max-width: 50%;
+    color: rgba(239, 237, 232, 0.65);
 }
 .run-right{
     max-width: 40%;
@@ -256,6 +261,10 @@ text-align: center;
 .bmi-paragraph{
     max-width: 70%;
     margin: 20px auto;
+
+}
+.bmi-paragraph p{
+    color: rgba(123, 122, 121, 0.65);
 
 }
 .bmi-calculator{
@@ -344,6 +353,9 @@ margin: 0 auto;
 .team-start h1{
     font-size: 40px;
 }
+.team-start p{
+    color: rgba(91, 91, 91, 0.65);;
+}
 .trainer1 img{
     width: 90%;
     height: 200px;
@@ -365,7 +377,58 @@ margin: 0 auto;
 .video p{
     margin-bottom: 20px;
     margin-top: 20px;
+};
+.footer-section{ }
+#footer-section{
+    max-width: 1024px;
+   
+    background-color: rgb(22, 22, 22);
+    color: #ddd;
 }
+
+.footer-container{
+   
+}
+#footer{
+    
+    color: aliceblue;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.footer-1{
+    width: 50%;
+    margin: 2rem auto;
+    color: rgba(167, 167, 164, 0.65);
+}
+.footer-2{
+    width: 20%;
+    color: rgba(239, 237, 232, 0.65);
+}
+.footer-2 h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.footer-1 h4{
+    color:rgb(230, 83, 60)
+}
+.footer-2>ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.horizontal{
+   width: 80%;
+   margin: 0 auto;
+    
+}
+.copy-right{
+    width: 30%;
+    margin: 0 auto;
+}
+#same{border-bottom: 1px solid red;}
 @media screen and (max-width: 576px) {
     .nav-container{margin: 0 auto;
     
@@ -377,7 +440,7 @@ margin: 0 auto;
     .nav-left {
         display: none;
     }
-    .banner-section,.team-container {
+    .banner-section,.team-container,#footer {
       
       
          flex-direction: column;
@@ -400,8 +463,8 @@ position: relative;
 margin: 0 auto;
 width: 9.4rem;
 height: 5rem;
-left:18rem;
-top:16.25rem;
+left:12rem;
+top:4rem;
 
     }
     .btn-free1{
@@ -413,8 +476,8 @@ position: relative;
 
 width: 10rem;
 height: 5rem;
-left:-8rem;
-top:20.25rem;
+left:-11rem;
+top:12rem;
 
 
     }
@@ -471,6 +534,21 @@ flex-direction: column;
     max-width: 320px;
     margin-right:120px;
    
+    
+}
+.footer-2{
+    width: 100%;
+    margin-left:30px;
+}
+.footer-section{ }
+#footer-section{
+   max-width: 100%;
+   margin-left: 20px;
+   
+   
+}
+.copy-right{
+    width: 50%;
     
 }
 }
